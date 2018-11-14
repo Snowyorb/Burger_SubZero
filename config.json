@@ -1,0 +1,9 @@
+{
+    "menu": [
+        ["Home", "/"],
+        ["Things", "things"],
+        ["Stuff", "stuff"],
+        ["More stuff", "more stuff"],
+        ["Neumont", "http://www.neumont.edu"]
+    ]
+}     
