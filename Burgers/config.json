@@ -1,9 +1,9 @@
 {
     "menu": [
         ["Home", "/"],
-        ["Things", "things"],
-        ["Stuff", "stuff"],
-        ["More stuff", "more stuff"],
-        ["Neumont", "http://www.neumont.edu"]
+        ["Burgers", "Burgers"],
+        ["Beverages", "Beverages"],
+        ["Fries", "Fries"],
+        ["Sides", "Sides"]
     ]
 }     
