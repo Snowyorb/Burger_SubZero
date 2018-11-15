@@ -17,4 +17,6 @@ app.get('/:name', function(req,res){
     res.render("pages", {"title":req.params.name, "config":config});
 });
 
+app.use(express.static(path.join(__dirname, "/public/Images")));
+
 app.listen(3000);
