@@ -17,6 +17,10 @@ app.get('/:name', function(req,res){
     res.render("pages", {"title":req.params.name, "config":config});
 });
 
-app.use(express.static(path.join(__dirname, "/public/Images")));
+app.get('/Burgers', function(req,res){
+    res.render("pages", {"title":req.params.name="Burgers", "Img":Image(src="/public/Images/b.png")});
+});
+
+app.use(express.static(path.join(__dirname, "/public/Images"))); 
 
 app.listen(3000);

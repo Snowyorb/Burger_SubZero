@@ -4,9 +4,13 @@ block content
     p Look at our delicious selection of #{title} 
         header
             div
-             img(src="/Images/Burgers.png", alt="Monster Burger",style='width:50%') 
-                 
-                 
-            iframe width="600" height="450" frameborder="0" style="border:0"
-                src="https://www.google.com/maps/embed/v1/search?q=resturants&key=..." 
-            
+                if title == "Chicken"
+                    img(src="/Images/b.png", alt="Monster Sandwich",style='width:40%')
+                    img(src="/Images/Burgers.png", alt="Monster Sandwich",style='width:40%')
+
+                if title == "Beverages"
+                    img(src="/Images/Burgers.png", alt="Drink", style="width:40%")
+
+                if title == "Fries"
+                    img(src="/Images/Burgers.png", alt="Drink", style="width:40%")
+                
