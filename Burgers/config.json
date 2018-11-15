@@ -1,7 +1,7 @@
 {
     "menu": [
         ["Home", "/"],
-        ["Chicken", "Chicken"],
+        ["Sandwiches", "Sandwiches"],
         ["Beverages", "Beverages"],
         ["Fries", "Fries"],
         ["Sides", "Sides"]
